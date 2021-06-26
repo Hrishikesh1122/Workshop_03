@@ -8,9 +8,9 @@ public class ReservationSystemTest {
 	ReservationSystem reservation = new ReservationSystem();
 
 	@Test
-	public void givenHotelAddition_IfSuccesful_ShouldReturnTrue() {
-		boolean result = reservation.addHotel();
-		Assert.assertEquals(true, result);
+	public void givenHotelAddition_IfSuccesful_ShouldReturnStringMessege() {
+		String result = reservation.addHotel();
+		Assert.assertEquals("Hotel added", result);
 	
 	}
 
